@@ -57,6 +57,7 @@ def set_emoji(number, name):
         with open("config.ini", 'w') as config_file:
             config.write(config_file)
 
+
 @cli.command()
 def generate_square7():
     if int(max_length) <= 7 and int(max_rows) <= 7:
