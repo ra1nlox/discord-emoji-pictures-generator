@@ -1,6 +1,4 @@
 import configparser
-
-
 import click
 
 config = configparser.ConfigParser()
