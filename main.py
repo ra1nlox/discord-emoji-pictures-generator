@@ -1,5 +1,4 @@
 import configparser
-from typing import TextIO
 
 import click
 
