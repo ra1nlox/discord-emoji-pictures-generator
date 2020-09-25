@@ -7,3 +7,12 @@ Output:
 :black_large_square: :red_square: :black_large_square: :black_large_square: :black_large_square: :red_square: :black_large_square:
 :black_large_square: :black_large_square: :red_square: :red_square: :red_square: :black_large_square: :black_large_square:
 :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square:
+
+Output:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+:black_large_square::black_large_square::red_square::red_square::red_square::black_large_square::black_large_square:
+:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
+:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
+:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
+:black_large_square::black_large_square::red_square::red_square::red_square::black_large_square::black_large_square:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:

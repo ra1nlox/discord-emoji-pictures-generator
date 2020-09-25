@@ -77,6 +77,7 @@ def generate():
 	shape = shape.replace('.', ' ')
 	final_form = shape.replace('0', emoji1)
 	final_form = final_form.replace('1', emoji2)
+	final_form = final_form.replace(' ', '')
 	print(final_form)
 	with outfile as of:
 		of.write('\n')
@@ -87,7 +88,7 @@ def generate():
 		of.close()
 
 
-@cli.command()
+"""@cli.command()
 def generate_square7():
 	if int(max_length) <= 7 and int(max_rows) <= 7:
 		row0 = emoji1*7
@@ -120,7 +121,7 @@ def generate_square7():
 
 	else:
 		print("Error: 'length' is too big")
-		print(max_length)
+		print(max_length)"""
 
 if __name__ == '__main__':
 	cli()
