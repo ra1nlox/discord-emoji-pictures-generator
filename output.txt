@@ -1,18 +1,33 @@
 
 Output:
-:black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square:
-:black_large_square: :black_large_square: :red_square: :red_square: :red_square: :black_large_square: :black_large_square:
-:black_large_square: :red_square: :black_large_square: :black_large_square: :black_large_square: :red_square: :black_large_square:
-:black_large_square: :red_square: :black_large_square: :black_large_square: :black_large_square: :red_square: :black_large_square:
-:black_large_square: :red_square: :black_large_square: :black_large_square: :black_large_square: :red_square: :black_large_square:
-:black_large_square: :black_large_square: :red_square: :red_square: :red_square: :black_large_square: :black_large_square:
-:black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square: :black_large_square:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+:black_large_square::black_large_square::red_square::red_square::red_square::black_large_square::black_large_square:
+:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
+:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
+:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
+:black_large_square::black_large_square::red_square::red_square::red_square::black_large_square::black_large_square:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
 
 Output:
 :black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
-:black_large_square::black_large_square::red_square::red_square::red_square::black_large_square::black_large_square:
-:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
-:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
-:black_large_square::red_square::black_large_square::black_large_square::black_large_square::red_square::black_large_square:
-:black_large_square::black_large_square::red_square::red_square::red_square::black_large_square::black_large_square:
+:black_large_square::red_circle::red_circle::red_circle::red_circle::black_large_square::black_large_square:
 :black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+
+Output:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+:black_large_square::red_circle::red_circle::red_circle::red_circle::black_large_square::black_large_square:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+
+Output:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+:black_large_square::yellow_circle::yellow_circle::yellow_circle::yellow_circle::black_large_square::black_large_square:
+:black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square::black_large_square:
+
+Output:
+:white_square_button::white_square_button::white_square_button::white_square_button::white_square_button::white_square_button::white_square_button::white_square_button:
+:green_square::green_square::green_square::green_square::green_square::green_square::green_square:
+:yellow_square::yellow_square::yellow_square::yellow_square::yellow_square::yellow_square::yellow_square:
+:red_circle::red_circle::red_circle::red_circle::red_circle::red_circle::red_circle:
+:yellow_circle::yellow_circle::yellow_circle::yellow_circle::yellow_circle::yellow_circle::yellow_circle:
+:white_large_square::white_large_square::white_large_square::white_large_square::white_large_square::white_large_square::white_large_square:
+:red_square::red_square::red_square::red_square::red_square::red_square::red_square:
