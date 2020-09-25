@@ -1,6 +1,5 @@
 .idea
 output.txt
-main.ui
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

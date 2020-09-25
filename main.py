@@ -3,6 +3,8 @@ import click
 
 config = configparser.ConfigParser()
 config.read("config.ini")
+config.set('settings', 'rows', '7')
+config.set('settings', 'length', '7')
 
 outfile = open('output.txt', 'a')
 
@@ -13,15 +15,11 @@ emoji3 = config["emojis"]["emoji3"]
 max_rows = config['settings']['rows']
 max_length = config['settings']['length']
 
-first = ''
-second = ''
-third = ''
-
 @click.group()
 def cli():
 	pass
 
-@cli.command()
+"""@cli.command()
 @click.option('-n', '--number', nargs=1, type=int)
 def set_rows(number):
 	if number <= 8:
@@ -39,7 +37,7 @@ def set_length(number):
 		with open("config.ini", 'w') as config_file:
 			config.write(config_file)
 	else:
-		print('Error: "number" is bigger than 8')
+		print('Error: "number" is bigger than 8')"""
 
 @cli.command()
 @click.option('-n', '--number', nargs=1, type=int, help='Number of emoji')
@@ -58,6 +56,35 @@ def set_emoji(number, name):
 		config.set('emojis', 'emoji3', str(name0))
 		with open("config.ini", 'w') as config_file:
 			config.write(config_file)
+
+@cli.command()
+def set_shape():
+	row0 = input("First row(use only 0 and 1 where you need a emoji, split it with a 'dot'): ")
+	row1 = input("Second row: ")
+	row2 = input("Third row: ")
+	row3 = input("Fourth row: ")
+	row4 = input("Fifth row: ")
+	row5 = input("Sixth row: ")
+	row6 = input("Seventh row: ")
+	row_all = f'{row0}\n{row1}\n{row2}\n{row3}\n{row4}\n{row5}\n{row6}'
+	config.set('shape', 'shape', str(row_all))
+	with open("config.ini", 'w') as config_file:
+		config.write(config_file)
+
+@cli.command()
+def generate():
+	shape = config['shape']['shape']
+	shape = shape.replace('.', ' ')
+	final_form = shape.replace('0', emoji1)
+	final_form = final_form.replace('1', emoji2)
+	print(final_form)
+	with outfile as of:
+		of.write('\n')
+		of.write('Output:')
+		of.write('\n')
+		of.write(final_form)
+		of.write('\n')
+		of.close()
 
 
 @cli.command()
