@@ -21,3 +21,4 @@ Commands:
   generate
   
   With this command you generate emoji picture. You can find this in 'output.txt' or in your console
+
