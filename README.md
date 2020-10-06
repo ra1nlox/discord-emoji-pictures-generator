@@ -3,6 +3,11 @@ Warning: this app can use only 10 emojis (from 0 to 9) and only 7 rows
 
 makes a rows with emoji for discord
 
+HowToUse:
+1: set-emoji, do this one time if you use same emojis
+2: set-shape, do this every time for make a picture
+3: generate, last step, generate emoji in file "output.txt" and in console
+
 Commands:
   
   set-emoji
@@ -11,7 +16,7 @@ Commands:
   
   set-shape
   
-  With this command you can change shape of picture what you need (use numbers from 0 to 9, and separate them with spaces like this [0 1 0 1 0 1 0])
+  With this command you can change shape of picture what you need (Use numbers from 0 to 9 where you need a emoji, split it with a just space)
   
   generate
   
